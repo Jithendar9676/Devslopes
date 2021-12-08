@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+h1{
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    color:white;
+}
+
+h2{
+    background:linear-gradient(to right, #33ccff 1%, #66ff66 100%) ;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+}
