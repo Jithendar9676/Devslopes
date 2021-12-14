@@ -14,14 +14,142 @@
     </head>
     <body>
         <nav>
-            <ul>
+            <ul class="topnav" id="dropdownclick">
                 <li><a href="#HOME">HOME</a></li>
                 <li><a href="#NEWS">NEWS</a></li>
                 <li><a href="#CONTACT">CONTACT</a></li>
                 <li><a href="#ABOUT">ABOUT</a></li>
                 <li class="navright"><a href="#SIGN UP">SIGN UP</a></li>
-                <li class="navright"><a href="#SIGN IN">SIGN IN</a></li>
+                <li class="navright"><a href="#LOG IN">LOG IN</a></li>
+                <li class="dropdown"><a href="javascript:void(0);"onclick="dropdownmenu()">&#9776;</a></li>
             </ul>
         </nav>
+
+
+
+        <div class="container-1">
+            <div class="row">
+                <div class="col-6">
+                    <div class="left-6">
+                        <h1 class="large">Hello pepole</h1>
+                        <h1 class="large">This is made for Letest songs</h1>
+                    </div>
+                    <form action="" class="left-6">
+                        <div>
+                            <h2>User Name</h2>
+                            <input class="inputbox" name="User Name" type="text" placeholder="name">
+                            <h2>Password</h2>
+                            <input class="inputbox" name="Password" type="text" placeholder="Password">
+                        </div>
+                    </form>
+
+
+                </div>
+                <div class="col-6">
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MFtMUBVcM0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <header>
+            <h1 class="header">List Of Songs</h1>
+        </header>
+        <div class="container-2">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <div>
+                            <img  class="icon" src="maxresdefault (1).jpg" alt="">
+
+                        </div>
+                        <label for="">Telugu Songs</label>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div>
+                            <img  class="icon" src="maxresdefault.jpg" alt="">
+
+                        </div>
+                        <label for="">Hindi Songs</label>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div>
+                            <img  class="icon" src="JokerPoster1200_5ca3c435318d42.29270548.jpg" alt="">
+
+                        </div>
+                        <label for="">English Songs</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <button>Learn More</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <div class="row">
+                <div class="col-3">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+        <script>
+            function dropdownmenu() {
+                var x = document.getElementById("dropdownclick");
+                if (x.className === "ul"){
+                    x.className += " responsive";
+                } else{
+                    x.className="topnav";
+                }
+            }
+
+        </script>
     </body>
 </html>
